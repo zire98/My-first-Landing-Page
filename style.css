@@ -122,3 +122,31 @@ h2 {
     font-weight: bold;
     font-size: 20px;
 }
+
+.container {
+    display: flex;
+    margin: 80px 250px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 40px 120px;
+    color: white;
+}
+
+.containerLeft p {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+.containerRight {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.buttonContainer {
+    border: 1px solid white;
+}
